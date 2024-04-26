@@ -1,0 +1,474 @@
+/* Write some CSS below */
+
+body{
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    font-family: "Open+sans", sans-serif;
+    line-height: 1.3;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lato' ;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 19px;
+    color: #000000;
+    font-weight: 600;
+    text-align: left;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+
+h1,h2,h3,h4 {
+
+}
+
+.banner {
+    background-image: url('images/landscape.jpeg') ;
+    background-position: center ;
+    background-size: cover;
+    margin: 0 ;
+    padding: 140px 0;
+    color: rgb(152, 63, 63);
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.upper-container{
+    margin: 40px auto;
+    width: 800px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding:10px 10px 10px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    background-color: #ffffff;
+    margin-top: -130px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.ville{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px 9px 3px 10px;
+    border-radius: 9px;
+    color: #000001;
+}
+
+.ville p {
+    font-size: 11px;
+    text-decoration: none;
+    text-align: left;
+}
+  
+.date{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 3px 9px 3px 9px;
+    border-radius: 9px;
+    color: #000001;
+}
+
+.date p {
+    font-size: 11px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.btn-van {
+    text-decoration: none;
+    background-color: #ffff ;
+    opacity: 0,4;
+    padding: 20px 50px ;
+    color: #dbfff6;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+
+.destination-choice {
+    margin: 20 20px;
+}
+
+.blue-btn{
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px #000000;
+    color: #ffffff;
+    background-color: #51b0b5;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 10px 10px 10px 5px;
+    margin: 30 30 10 auto;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+.blue-btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;  
+}
+
+.btn-van:hover {
+    background-color: #dbfff6;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn-offres {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 50px ;
+    color: #ffffff;
+    border-radius: 50px;
+    font-weight: bold;
+    top: 20px;
+}
+
+.btn-offres:hover {
+    background-color: #eebb61;
+    color: #ffffff;
+    text-align: center;   
+}
+
+.banner p {
+    color: grey;
+    font-size: 60px;
+    margin-bottom: 0 ;
+}
+
+.mono-principal {
+    background-image: url('images/nice.jpeg') ;
+    background-position: center ;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    margin: 40px ;
+    padding: 10px 0;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-white{
+    background-color: #dfece7;
+    color: white;
+    margin: 20px 0;
+    border-radius: 5px;
+    opacity:0,1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.container {
+    margin: 20px auto;
+    width: 1100px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.cards-white {
+    background-color: #8eb4ac;
+    box-shadow: O O 10px rgb(22, 21, 21);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 6% 0 ;
+}
+
+.cards-white p{
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cards-white img {
+    border-radius: 5%;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0% 0;
+}
+
+.image-first {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+}
+ 
+.image-first img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+ 
+.image-second {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+ 
+.image-second img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+ 
+.image-first:hover .image-second {
+    opacity: 1;
+}
+
+.cards-destination{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px; 
+}
+
+.cards-destination img {
+    border-radius: 5%;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin: 0% 0;
+}
+
+.cards-destination h3 {
+    color:#000000;
+}
+
+.cards-destination h4 {
+    color:#ffffff;
+    letter-spacing: 2rem;
+}
+
+.prix{
+    color: rgb(215, 103, 103);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cards-choix{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px; 
+}
+
+.map-monde{
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 2% 0 ; 
+    line-height: 6px;
+    padding-left: 5px;
+}
+
+.map-monde h2{
+    text-align: left;
+    font-size: 23px;
+    padding-bottom: 5px;
+}
+
+.map-monde p{
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    color:#7ac8b7;
+}
+
+.card-destination{
+    box-shadow: O O 10px rgb(215, 91, 91);
+    border-radius: 10px;
+    margin: 2% 0 ;  
+}
+
+.list-destination{
+    list-style: none;
+    justify-content: space-between;
+}
+
+.destination-idea{
+    background-color: #8eb4ac;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 6px;
+    padding-left: 12px;
+}
+
+.last-intro{
+    background-color: #dfece7;
+    background-size: cover;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.last-intro p{
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 1.5px;  
+    padding: 10px; 
+    color: #7ac8b7;
+    text-align: justify;
+}
+
+.reco-lastminute{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.reco-destination {
+    box-shadow: 10px 5px 5px rgb(75, 75, 75);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 50px 30px;
+    transition:0.5s ;
+}
+
+.reco-destination:hover{
+    transform: scale(1.05);
+}
+
+.call-to-action {
+    justify-content: space-between;
+    color: #000000;
+    align-items: cover;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color : #8eb4ac;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 9px;
+    color: black;
+    font-size: 15px;
+}
+
+.img-lastminute {
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover
+}
+
+.info-lastminute p {
+    color: #7ac8b7;
+    text-align: left;
+}
+
+
+.footer{ 
+    width: 1100px;
+    margin: 20px auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:16px;
+}
+
+.contact{
+    padding: 100px 30px;
+    width: 600px;
+    margin: 40px auto;
+    background-color: #EFEBE8;
+    border: 3px solid white;
+    text-align: center;
+}
+
+#contact-cta {
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color:white;
+    border: 2px solid grey;
+    padding: 5px 9px;
+    color: black;
+    font-size: 15px;
+}
+
+.social-network{
+    width: 400px;
+    margin : 40px auto ; 
+    text-align: center;
+    padding: 100px 30px;
+    border: 1px solid #ffff;
+}
+
+.social-network h3{
+    text-align: center;
+}
+
+
+.network-button{
+    color: #000000;
+    font-size: 50px;
+}
+
+.list-inline{
+    color: #000000;
+    font-size: 40px;
+    display: inline;
+    text-align: center;
+    list-style: none;
+    padding-left: 0%;
+    padding: 19px;
+    padding-top: 20px;
+}
+
+.list-inline li{
+    font-size: 40px;
+    display: inline;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+#copyright{
+    font-size: 11px;
+}
+
+@media (max-width: 1230px) {
+    .cards {
+        grid-template-columns: 1fr 1fr ;
+    }
+    .container{
+        width: 900px;
+    }
+}
